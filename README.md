@@ -1,5 +1,3 @@
-# Lecture
-
 # Programming and Logic Design
 **Institution:** Emilio Aguinaldo College Manila
 
