@@ -13,7 +13,7 @@ int main()
      */
 
     cout << "This program computes for the preliminary period.\n"
-         << "(Enter the value of grades ranging from 0-100)\n";
+         << "(Enter the percentage value, 0-100)\n";
     
     char fullName[30];
     cout << "Enter your fullname: ";
@@ -21,7 +21,7 @@ int main()
 
     int R, PE; //initialize variables
     cout << "Enter your average of all requirements given in Prelim: ";
-    cin >> R;
+    cin >> R; 
     cout << "Enter your Prelim Exam Grade: ";
     cin >> PE;
 
