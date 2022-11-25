@@ -12,4 +12,5 @@ int main()
     cout << "\n" << value << "\t" << pow(value, 2) << "\t" << pow(value, 3) << "\t" << pow(value, 4); 
     value++;
     }
+    return 0;
 }
