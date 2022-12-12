@@ -4,14 +4,16 @@ using namespace std;
 
 int main()
 {
-    float temperature;
-    char degree = 248;
-    for (int i = 0; i < 6; i++)
+    float fahrenheit, celsius;
+    int i;
+
+    for (i = 1; i <= 6; i++)
     {
-        cout << "[" << i + 1 << "] Enter temperature to in degree Celsius: ";
-        cin >> temperature;
-        temperature = (temperature * 1.8) + 32;
-        cout << temperature << degree << "F\n";
+        cout << "Enter the temperature in Fahrenheit: ";
+        cin >> fahrenheit;
+        celsius = (fahrenheit - 32) * 5 / 9;
+        cout << "The temperature in Celsius is " << celsius << "\n";
     }
-    return 0; 
+
+    return 0;
 }
